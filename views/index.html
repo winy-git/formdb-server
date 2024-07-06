@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>form-membership</title>
+    <meta charset="UTF-8">
+    <meta name="membership form" content="Joining-membership page using web-form">
+</head>
+<body>
+    <div>
+        <h3>Welcome to join membership</h3>
+        <form id="form_dbServer" action="/join" method="post">
+            <p><label>name: <input type="text" name="name"></label></p>
+            <p><label>password: <input type="password" name="password"></label></p>
+            <p><label>phone number: <input type="tel" name="phone" required title="input type: 0??-????-????"></label></p>
+            <p><label>email address: <input type="email" name="email" multiple></label></p><br/><br/>
+            <input type="submit" form="form_dbServer">
+        </form>
+    </div>
+</body>
+</html>
